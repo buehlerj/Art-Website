@@ -1,0 +1,67 @@
+// Art History Inspired
+$blue: #0375B4;
+$yellow: #FFCE00;
+$grass_green: #007849;
+$dark_gray: #262228;
+
+
+// Neon Tones and Sharp Contrast
+$void: #0E0B16;
+$fuschia: #A128CA;
+$jewel: #4717F6;
+$stark: #E7DFDD;
+
+
+// Muted and Minimal
+$dusty: #96858F;
+$lavendar: 6D7993;
+$overcase: 9099A2;
+$paper: D5D5D5;
+
+
+// Warm and Bold
+$black: #000000;
+$ink: #062F4F;
+$posy: #813772;
+$embers: #B82601;
+
+
+// Cool vs. Warm
+$navy_blue: #18121E;
+$gunmetal: #233237;
+$rusty_red: #984B43;
+$warm_yellow: #EAC67A;
+
+
+// Elegant and Sophisticated
+$prusian_blue: #0B3C5D;
+$sky_blue: #328CC1;
+$gold_leaf: #D9B310;
+$ivory_black: #1D2731;
+
+
+// Professional and Modern
+$screen: #C5C1C0;
+$steel: #0A1612;
+$denim: #1A2930;
+$marigold: #F7CE2E;
+
+
+
+html, body {
+  background: $prusian_blue;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: #FFFFFF;
+}
+a:hover {
+  color: #CCCCCC;
+}
+a:active {
+  color: #333333;
+}
