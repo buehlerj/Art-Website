@@ -12,11 +12,31 @@
 
 ActiveRecord::Schema.define(version: 20161222073349) do
 
-  create_table "exhibits", force: :cascade do |t|
+  create_table "galleries", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+  end
+
+  create_table "piece_tags", id: false, force: :cascade do |t|
+    t.integer "piece_id"
+    t.integer "tag_id"
+    t.index ["piece_id"], name: "index_piece_tags_on_piece_id"
+    t.index ["tag_id"], name: "index_piece_tags_on_tag_id"
+  end
+
+  create_table "pieces", force: :cascade do |t|
+    t.string   "name"
+    t.text     "description"
+    t.integer  "gallery_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.index ["gallery_id"], name: "index_pieces_on_gallery_id"
+  end
+
+  create_table "tags", force: :cascade do |t|
+    t.string "name"
   end
 
 end
