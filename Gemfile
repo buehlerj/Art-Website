@@ -23,6 +23,7 @@ gem 'wdm', '>= 0.1.0'                  # Windows Directory Monitor (WDM) is a li
 
 group :development, :test do
   gem 'byebug', platform: :mri         # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'rubocop', require: false        # Ruby static code analyzer
 end
 
 group :development do
