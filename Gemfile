@@ -11,6 +11,7 @@ gem 'coffee-rails', '~> 4.2'           # Use CoffeeScript for .coffee assets and
 gem 'jquery-rails'                     # Use jquery as the JavaScript library
 gem 'turbolinks', '~> 5'               # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'jbuilder', '~> 2.5'               # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'bootstrap-sass', '~> 3.3.6'       # The most popular HTML, CSS, and JavaScript framework for developing
 gem 'wdm', '>= 0.1.0'                  # Windows Directory Monitor (WDM) is a library which can be used to monitor directories for changes
 
 # gem 'redis', '~> 3.0'                # Use Redis adapter to run Action Cable in production

@@ -1,3 +1,9 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// Universal
+$light-grey: #D2D2D2;
+
 // Art History Inspired
 $blue: #0375B4;
 $yellow: #FFCE00;
@@ -14,9 +20,9 @@ $stark: #E7DFDD;
 
 // Muted and Minimal
 $dusty: #96858F;
-$lavendar: 6D7993;
-$overcase: 9099A2;
-$paper: D5D5D5;
+$lavendar: #6D7993;
+$overcase: #9099A2;
+$paper: #D5D5D5;
 
 
 // Warm and Bold
@@ -49,8 +55,42 @@ $marigold: #F7CE2E;
 
 
 html, body {
-  background: $prusian_blue;
-  color: white;
+  background: $steel;
+  color: $screen;
+}
+
+// -------- Application Layout Style -------- //
+.navbar-default {
+  background-color: $denim;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.navbar-fixed-bottom {
+  background-color: $denim;
+  min-height: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus a:focus {
+  background-color: $blue;
+  color: $screen;
+}
+
+.header-paths {
+  float: right;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.header-paths:hover {
+  text-decoration: none;
+  border: 15px solid $sky_blue;
+  margin: 0px;
+  background-color: $sky_blue;
+}
+
+.center {
+  text-align: center;
 }
 
 a:link {
